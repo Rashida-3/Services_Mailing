@@ -135,4 +135,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 
-# C:\Users\Lenovo\Documents\services-ack\service\app\static
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_PORT=587
+EMAIL_HOST_USER='rashidamcc123@gmail.com'
+EMAIL_HOST_PASSWORD='Smart@1230'
+EMAIL_HOST_TLS=True
